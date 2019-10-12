@@ -50,10 +50,12 @@ elif [ $1 = "4" ]; then
   cp -r "${DLGO_SECRET_HOME}"/$DIR/mcts ./$DIR
   cp -r "${DLGO_SECRET_HOME}"/$DIR/minimax ./$DIR
   cp -r "${DLGO_SECRET_HOME}"/$DIR/ttt ./$DIR
+  cp -r "${DLGO_SECRET_HOME}"/$DIR/hxp ./$DIR
 
   # examples/scripts
   cp "${DLGO_SECRET_HOME}"/mcts_go.py .
   cp "${DLGO_SECRET_HOME}"/play_ttt.py .
+  cp "${DLGO_SECRET_HOME}"/play_hxp.py .
   cp "${DLGO_SECRET_HOME}"/pruned_go.py .
 
 
